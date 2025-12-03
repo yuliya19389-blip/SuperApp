@@ -1,0 +1,9 @@
+aiogram>=3.0.0
+anthropic>=0.7.0
+fastapi
+uvicorn
+python-dotenv
+feedparser
+apscheduler
+aiohttp
+ics
