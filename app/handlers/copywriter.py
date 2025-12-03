@@ -1,7 +1,8 @@
 from aiogram import Router, F, types
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
-from app.claude_api import claude
+from app.gemini_api import gemini
+# И далее в коде вызывать gemini.generate_response(...)
 
 router = Router()
 class CopyState(StatesGroup):
