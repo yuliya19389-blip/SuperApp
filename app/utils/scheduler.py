@@ -1,6 +1,7 @@
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from aiogram import Bot
-from app.claude_api import claude
+from app.gemini_api import gemini
+# И далее в коде вызывать gemini.generate_response(...)
 
 class SchedulerManager:
     def __init__(self):
